@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+body {
+  margin: 0 auto;
+  background-color: #f3f3f3;
+}
+.wrapper {
+  margin: 2rem 2rem;
+}
+.card {
+  height: 16em;
+  border-radius: 10%;
+  width: 16em;
+  overflow: hidden;
+  position: relative;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16em;
+  width: 16em;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(to right, #f27121, #e94057);
+  border-radius: 10%;
+}
+.card-2:hover {
+  transform: scale(1.1);
+}
+.card-img {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+}
+.card-p {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
+  color: white;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 2rem;
+  font-family: righteous;
+  font-weight: 600;
+  color: #f27121;
+  line-height: 2.5rem;
+  margin: 3rem 0 1rem 0;
+}
+.title-text-2 {
+  font-size: 2rem;
+  font-family: righteous;
+  font-weight: 600;
+  color: white;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #181818;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+.icon-list {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+  color: black;
+}
+.grid {
+  padding: 3rem 2rem 0rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 3rem;
+}
+
+.nav-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+  text-decoration: none;
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  transform: scale(0.8);
+  background: linear-gradient(to right, #f27121, #e94057);
+}
+.nav-style > h4 {
+  color: white;
+  font-size: 0.8rem;
+}
+.nav-style > svg {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.active-link {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+  text-decoration: none;
+  width: 6rem;
+  height: 6rem;
+  cursor: pointer;
+  transform: scale(0.9);
+  border: 2px white solid;
+  background: linear-gradient(to right, #f27121, #e94057);
+}
+.active-link > h4 {
+  color: white;
+  font-size: 0.8rem;
+}
+.active-link > svg {
+  font-size: 1.5rem;
+  color: white;
+}
+.form {
+  margin: 0;
+  position: relative;
+  width: 40%;
+}
+.form > input {
+  font-size: 1rem;
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 1rem 3rem;
+  border: 2px white solid;
+  border-radius: 1rem;
+  outline: none;
+  width: 100%;
+}
+.form > svg {
+  position: absolute;
+
+  top: 50%;
+  left: 0%;
+  transform: translate(100%, -50%);
+  color: white;
+}
+
+.detail-wrapper {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-wrapper > h2 {
+  margin-bottom: 10rem;
+}
+.detail-wrapper > li {
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+}
+.detail-wrapper > ul {
+  margin-top: 2rem;
+}
+.button {
+  padding: 0.5rem 1.25rem;
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 1rem;
+  font-weight: 600;
+}
+.active {
+  background: linear-gradient(to right, #f27121, #e94057);
+  color: white;
+  border: 2px solid #f27121;
+}
+.info {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-logo {
+  text-decoration: none;
+}
+.top-logo > P {
+  font-family: Righteous;
+  color: #f27121;
+  font-size: 2.8rem;
+}
+.nav-bar {
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem 0 1rem;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("/coverimg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+}
+.home-icon {
+  width: 2.5rem;
+}
+.display-box {
+  width: 70%;
+  padding: 2rem;
+}
