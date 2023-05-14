@@ -11,6 +11,7 @@ body {
 .wrapper {
   margin: 2rem 2rem;
 }
+
 .card {
   height: 16em;
   border-radius: 10%;
@@ -78,10 +79,10 @@ body {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
   color: #181818;
-  line-height: 2.5rem;
+  line-height: 1.5;
   margin: 2rem 0;
 }
 .icon-list {
@@ -208,7 +209,21 @@ h3 {
 }
 .top-logo {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
+.top-logo-left {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.top-logo-left > P {
+  font-family: Righteous;
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
 .top-logo > P {
   font-family: Righteous;
   color: #f27121;
@@ -239,4 +254,11 @@ h3 {
 .display-box {
   width: 70%;
   padding: 2rem;
+}
+.display-box > ul {
+  line-height: 2;
+}
+.img-nav {
+  width: 100%;
+  color: black;
 }

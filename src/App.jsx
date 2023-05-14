@@ -2,6 +2,8 @@ import Pages from "./pages/Pages";
 import Category from "./components/Category";
 import { BrowserRouter } from "react-router-dom";
 import Search from "./components/Search";
+import { GrHomeRounded } from "react-icons/gr";
+import { FaHamburger } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
@@ -10,18 +12,17 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <div className="nav-bar">
-          <Link className="top-logo" to={"/"}>
-            <img className="home-icon" src="/public/img/home.jpg" alt="" />
-          </Link>
+          <div>
+            <Link className="top-logo-left" to={"/"}>
+              <GrHomeRounded className="img-nav"></GrHomeRounded>
+              <p>Home</p>
+            </Link>
+          </div>
           <Link className="top-logo" to={"/"}>
             <p>Best Recipes</p>
           </Link>
           <Link className="top-logo" to={"/"}>
-            <img
-              className="home-icon"
-              src="/public/img/restaurant.jpg"
-              alt=""
-            />
+            <FaHamburger className="img-nav"></FaHamburger>
           </Link>
         </div>
         <Pages />
