@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <div className="nav-bar">
           <Link className="top-logo" to={"/"}>
-            <img className="home-icon" src="/public/img/home.png" alt="" />
+            <img className="home-icon" src="/public/img/home.jpg" alt="" />
           </Link>
           <Link className="top-logo" to={"/"}>
             <p>Best Recipes</p>
@@ -19,7 +19,7 @@ function App() {
           <Link className="top-logo" to={"/"}>
             <img
               className="home-icon"
-              src="/public/img/restaurant.png"
+              src="/public/img/restaurant.jpg"
               alt=""
             />
           </Link>
