@@ -228,7 +228,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/coverimg.jpg") no-repeat center center;
+  background: url("/public/img/coverimg.jpg") no-repeat center center;
   background-size: cover;
   height: 30rem;
   width: 100%;

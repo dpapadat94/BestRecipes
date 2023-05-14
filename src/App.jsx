@@ -11,13 +11,17 @@ function App() {
       <BrowserRouter>
         <div className="nav-bar">
           <Link className="top-logo" to={"/"}>
-            <img className="home-icon" src="/home.png" alt="" />
+            <img className="home-icon" src="/public/img/home.png" alt="" />
           </Link>
           <Link className="top-logo" to={"/"}>
             <p>Best Recipes</p>
           </Link>
           <Link className="top-logo" to={"/"}>
-            <img className="home-icon" src="/restaurant.png" alt="" />
+            <img
+              className="home-icon"
+              src="/public/img/restaurant.png"
+              alt=""
+            />
           </Link>
         </div>
         <Pages />
