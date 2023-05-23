@@ -234,7 +234,6 @@ h3 {
 }
 .nav-bar {
   height: 5rem;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -264,4 +263,47 @@ h3 {
 .img-nav {
   width: 10rem;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .top-logo-left > p {
+    font-size: 1.5rem;
+  }
+  .top-logo > p {
+    font-size: 1.5rem;
+    width: 10rem;
+  }
+  .detail-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 477px) {
+  .form {
+    width: 70%;
+  }
+  .form > input {
+    border: 1px white solid;
+  }
+  .icon-list {
+    width: 100%;
+    margin-left: 8%;
+  }
+  .title-text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .display-box {
+    width: 90%;
+    padding: 0.2rem;
+    margin: 0 auto;
+  }
+  .detail-wrapper img {
+    width: 80%;
+    margin-left: 2.5rem;
+  }
+  .detail-wrapper {
+    margin-left: 0rem;
+  }
 }
