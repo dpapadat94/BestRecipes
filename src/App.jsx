@@ -14,16 +14,15 @@ function App() {
         <div className="nav-bar">
           <div>
             <Link className="top-logo-left" to={"/"}>
-              <GrHomeRounded className="img-nav"></GrHomeRounded>
+              <img className="logo-right" src="img/fork.png" alt="" />
               <p>Home</p>
             </Link>
           </div>
-          <Link className="top-logo" to={"/"}>
-            <p>Best Recipes</p>
-          </Link>
-          <Link className="top-logo" to={"/"}>
-            <FaHamburger className="img-nav"></FaHamburger>
-          </Link>
+          <div>
+            <Link className="top-logo" to={"/"}>
+              <p>Best Recipes</p>
+            </Link>
+          </div>
         </div>
         <Pages />
       </BrowserRouter>
